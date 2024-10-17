@@ -11,12 +11,10 @@
   }
 }
 
-
-
-
 @layer base {
   body {
     @apply font-primary bg-primary text-white leading-loose;
+    font-family: var(--font-jetbrainsMono), sans-serif;
   }
 
   .h1 {
