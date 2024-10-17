@@ -3,26 +3,13 @@
 @tailwind utilities;
 
 
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-@font-face {
-  font-family: var(--font-jetbrainsMono);
-  font-display: swap;
-}
-
 body {
   font-family: var(--font-jetbrainsMono);
 }
+
 @layer base {
   body {
     @apply font-primary bg-primary text-white leading-loose;
-    font-family: var(--font-jetbrainsMono), sans-serif;
   }
 
   .h1 {
@@ -38,7 +25,7 @@ body {
   .text-outline {
     -webkit-text-stroke: 1px #ffffff;
   }
-  
+
   .text-outline-hover {
     -webkit-text-stroke: 1px #00ff99;
   }
